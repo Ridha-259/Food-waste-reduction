@@ -89,7 +89,7 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+<img width="647" alt="Image" src="https://github.com/user-attachments/assets/d59b5bd1-a72b-41c5-93f9-48cf572cc138" />
 *Explain what the video demonstrates*
 
 # Additional Demos

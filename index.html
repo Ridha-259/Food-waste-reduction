@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Waste Reduction - Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-text">
+            <h1>Welcome to Food Waste Reduction</h1>
+            <p>Join us in the fight against food waste and make a difference!</p>
+        </div>
+        <div class="auth-container">
+            <div class="tabs" role="tablist">
+                <button class="tab-btn active" role="tab" aria-selected="true" onclick="showForm('login')">Login</button>
+                <button class="tab-btn" role="tab" aria-selected="false" onclick="showForm('signup')">Sign Up</button>
+            </div>
+
+            <form id="loginForm" class="auth-form" aria-label="Login form">
+                <input type="email" placeholder="Email" id="loginEmail" aria-label="Email address" required>
+                <input type="password" placeholder="Password" id="loginPassword" aria-label="Password" required>
+                <button type="submit">Login</button>
+                <p id="loginError" class="error"></p>
+            </form>
+
+            <form id="signupForm" class="auth-form hidden">
+                <input type="email" placeholder="Email" id="signupEmail" required>
+                <input type="password" placeholder="Password" id="signupPassword" required>
+                <button type="submit">Sign Up</button>
+                <p id="signupError" class="error"></p>
+            </form>
+            <p class="quote">Keep it fresh by keeping it finished! 🍕</p>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>  
